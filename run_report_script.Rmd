@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+author: "Kerry McGowan"
+date: "11/17/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+source('report_script.R')
+```
+
+Here is what we really want to show:
+
+```{r}
+endplot
+```
+

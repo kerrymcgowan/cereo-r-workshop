@@ -189,6 +189,7 @@ ggsave(plot = p, filename = "temp_count_scatter.png")
 
 ggplot(data = df_long, aes(x = value, y = cnt, color = variable)) +
   geom_point() +
+  geom_smooth(se = FALSE) +
   facet_wrap(~ weather_fac)
 
 
