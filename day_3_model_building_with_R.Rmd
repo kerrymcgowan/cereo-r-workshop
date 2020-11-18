@@ -1,7 +1,0 @@
----
-title: "day_3_model_building_w_R"
-author: "Kerry McGowan"
-date: "11/18/2020"
-output: html_document
----
-
